@@ -29,7 +29,7 @@ public class WebConfigurer implements WebApplicationInitializer {
 		appContext.setConfigLocation(CONFIG_LOCATION);
 		
 		servletContext.addListener(new ContextLoaderListener(appContext));
-		ServletRegistration.Dynamic dispatcherServlet = servletContext.addServlet("dispatccherServlet",new DispatcherServlet(appContext));
+		ServletRegistration.Dynamic dispatcherServlet = servletContext.addServlet("dispatcherServlet",new DispatcherServlet(appContext));
 		dispatcherServlet.setLoadOnStartup(1);
 		dispatcherServlet.addMapping("/*");
 		
