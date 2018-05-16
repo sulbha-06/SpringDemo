@@ -15,7 +15,8 @@ public class RechargeResponseDTO {
 		return amount;
 	}
 	public void setAmount(int amount) {
-		this.amount = amount;
+		
+		this.amount = amount+100;
 	}
 	public String getOperator() {
 		return operator;
