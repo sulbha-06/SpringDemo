@@ -6,5 +6,5 @@ package com.sulbha.utility.contants;
 public interface AppConstants {
 String CONFIG_LOCATION = "com.sulbha.config.*";    //Config file location
 public String PACKAGES_TO_SCAN = "com.sulbha";   //Package name
-
+String REPO_PACKAGES_TO_SCAN="com.sulbha.data.*";
 }
